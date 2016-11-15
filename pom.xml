@@ -27,7 +27,7 @@
     <scm>
         <connection>scm:git:ssh://github.com/real-comp/prime-annotations.git</connection>
         <developerConnection>scm:git:ssh://github.com/real-comp/prime-annotations.git</developerConnection>
-        <url>https://github.com/real-comp/prime-annotations</url>
+        <url>git@github.com:real-comp/prime-annotations.git</url>
         <tag>HEAD</tag>
     </scm>
     <distributionManagement>
