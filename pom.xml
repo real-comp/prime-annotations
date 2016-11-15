@@ -3,7 +3,7 @@
     <groupId>com.real-comp</groupId>
     <artifactId>prime-annotations</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>prime-annotations</name>
     <description>Custom annotation support for real-comp/prime</description>       
     <url>https://github.com/real-comp/prime-annotations</url>
