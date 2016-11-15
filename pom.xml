@@ -3,7 +3,7 @@
     <groupId>com.real-comp</groupId>
     <artifactId>prime-annotations</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <name>prime-annotations</name>
     <organization>
         <name>Real-Comp</name>
@@ -28,7 +28,7 @@
         <connection>scm:git:ssh://github.com/real-comp/prime-annotations.git</connection>
         <developerConnection>scm:git:ssh://github.com/real-comp/prime-annotations.git</developerConnection>
         <url>git@github.com:real-comp/prime-annotations.git</url>
-        <tag>HEAD</tag>
+        <tag>prime-annotations-0.0.3</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
