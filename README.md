@@ -1,14 +1,14 @@
 # prime-annotations
 Custom annotation support for real-comp/prime
 
-Provides two helpful annotations for your custom Prime Converters and Validators.
+Provides two helpful annotations for your custom Prime Converters and Validators. When your class is annotated with one of these, and has a default no-arg constructor, Prime will automatically register your Converter or Validator.
 
 @Converter
 
 @Validator
 
-When your class is annotated with one of these, and has a default no-arg constructor, Prime will automatically register your Converter or Validator.
 
+An @Converter example:
 ```java
 import com.realcomp.prime.conversion.StringConverter;
 
