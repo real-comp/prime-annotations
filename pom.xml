@@ -5,6 +5,8 @@
     <packaging>jar</packaging>
     <version>0.0.3-SNAPSHOT</version>
     <name>prime-annotations</name>
+    <description>Custom annotation support for real-comp/prime</description>       
+    <url>https://github.com/real-comp/prime-annotations</url>
     <organization>
         <name>Real-Comp</name>
         <url>http://www.real-comp.com</url>
