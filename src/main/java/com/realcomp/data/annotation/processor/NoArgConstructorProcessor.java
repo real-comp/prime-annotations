@@ -1,7 +1,7 @@
 package com.realcomp.data.annotation.processor;
 
 import com.realcomp.data.annotation.Validator;
-import java.util.Set;
+
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
@@ -11,6 +11,7 @@ import javax.lang.model.element.ExecutableElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.ElementFilter;
 import javax.tools.Diagnostic;
+import java.util.Set;
 
 /**
  * Enforces that all classes with the supported annotations have a default public (empty)
@@ -24,7 +25,7 @@ import javax.tools.Diagnostic;
     value={
         "com.realcomp.data.annotation.Validator",
         "com.realcomp.data.annotation.Converter"})
-@SupportedSourceVersion(SourceVersion.RELEASE_6)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class NoArgConstructorProcessor extends AbstractProcessor{
 
     @Override
