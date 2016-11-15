@@ -49,7 +49,7 @@ public class ExclamationValidator extends DefaultFieldValidator{
 ## Maven
 ```xml
 <dependency>
-    <groupId>com.realcomp.prime</groupId>
+    <groupId>com.real-comp.prime</groupId>
     <artifactId>prime-annotations</artifactId>
     <version>0.1.0</version>
 </dependency>
