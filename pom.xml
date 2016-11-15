@@ -3,7 +3,7 @@
     <groupId>com.real-comp</groupId>
     <artifactId>prime-annotations</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>prime-annotations</name>
     <description>Custom annotation support for real-comp/prime</description>       
     <url>https://github.com/real-comp/prime-annotations</url>
@@ -30,7 +30,7 @@
         <connection>scm:git:git@github.com:real-comp/prime-annotations.git</connection>
         <developerConnection>scm:git:git@github.com:real-comp/prime-annotations.git</developerConnection>
         <url>git@github.com:real-comp/prime-annotations.git</url>
-        <tag>HEAD</tag>
+        <tag>prime-annotations-0.0.4</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
