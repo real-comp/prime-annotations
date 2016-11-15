@@ -26,8 +26,7 @@
     </licenses>
     <scm>
         <connection>scm:git:https://github.com/real-comp/prime-annotations</connection>
-        <url>https://github.com/real-comp/prime-annotations</url>
-        <tag>prime-annotations-0.0.3</tag>
+        <url>git@github.com:real-comp/prime-annotations.git</url>
     </scm>
     <distributionManagement>
         <snapshotRepository>
