@@ -1,6 +1,6 @@
-package com.realcomp.data.annotation.processor;
+package com.realcomp.prime.annotation.processor;
 
-import com.realcomp.data.annotation.Validator;
+import com.realcomp.prime.annotation.Validator;
 
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
@@ -23,8 +23,8 @@ import java.util.Set;
  */
 @SupportedAnnotationTypes(
     value={
-        "com.realcomp.data.annotation.Validator",
-        "com.realcomp.data.annotation.Converter"})
+        "Validator",
+        "Converter"})
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class NoArgConstructorProcessor extends AbstractProcessor{
 

@@ -1,4 +1,4 @@
-package com.realcomp.data.annotation;
+package com.realcomp.prime.annotation;
 
 
 
@@ -9,7 +9,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * <p>Marker annotation for a realcomp-data Converter.</p>
+ * Marker annotation for a Prime Validator.
  *
  * The annotated class must have a default no-arg constructor.
  * The constructor requirement is enforced by a custom annotation processor.
@@ -19,13 +19,13 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Converter {
+public @interface Validator {
 
     /**
-     * The name for the converter.  This name should be unique and will be used
+     * The name for the validator.  This name should be unique and will be used
      * for operations like schema serialization.
      *
-     * @return the name for the converter.
+     * @return the name for the validator.
      */
     String value();
 }

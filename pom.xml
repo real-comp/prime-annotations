@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.realcomp.data</groupId>
-    <artifactId>realcomp-data-annotations</artifactId>
+    <groupId>com.realcomp.prime</groupId>
+    <artifactId>prime-annotations</artifactId>
     <packaging>jar</packaging>
     <version>0.0.3-SNAPSHOT</version>
-    <name>realcomp-data-annotations</name>
+    <name>prime-annotations</name>
     <organization>
         <name>Real-Comp</name>
         <url>http://www.real-comp.com</url>
@@ -26,8 +26,8 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:https://github.com/real-comp/realcomp-data-annotations</connection>
-        <url>https://github.com/real-comp/realcomp-data-annotations</url>
+        <connection>scm:git:https://github.com/real-comp/prime-annotations</connection>
+        <url>https://github.com/real-comp/prime-annotations</url>
         <tag>HEAD</tag>
     </scm>
     <distributionManagement>
