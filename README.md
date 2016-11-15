@@ -24,7 +24,7 @@ public class AppendExclamation extends StringConverter{
 ```
 
 
-Maven
+## Maven
 ```xml
 <dependency>
     <groupId>com.realcomp.prime</groupId>
