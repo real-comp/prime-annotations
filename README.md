@@ -50,8 +50,7 @@ public class ExclamationValidator extends DefaultFieldValidator{
 ```xml
 <dependency>
     <groupId>com.real-comp</groupId>
-    <artifactId>prime-annotations</artifactId>
-    <version>0.0.4</version>
+    <artifactId>0.1.0</version>
 </dependency>
 ```
 
